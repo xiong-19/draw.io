@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T01:57:53.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="sfW2eJXdnhkMUkWyjX6M" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T02:46:04.883Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="O4OpG-PLogJ_VTqYt2c1" version="24.0.6" type="github">
   <diagram name="第 1 页" id="e0HLtBswI-MPd6nx6dCa">
-    <mxGraphModel dx="1861" dy="1952" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="1952" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,6 +14,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9iSsdS5C5FWqT82iSlDD-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="9iSsdS5C5FWqT82iSlDD-5" target="9iSsdS5C5FWqT82iSlDD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="9iSsdS5C5FWqT82iSlDD-5" target="9iSsdS5C5FWqT82iSlDD-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-471.58823529411757" y="1424.4707318474266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-62" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="9iSsdS5C5FWqT82iSlDD-5" target="9iSsdS5C5FWqT82iSlDD-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9iSsdS5C5FWqT82iSlDD-5" value="&lt;font color=&quot;#990000&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;load_elf_binary&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;fillStyle=dashed;opacity=30;" vertex="1" parent="1">
@@ -157,6 +165,18 @@
         </mxCell>
         <mxCell id="9iSsdS5C5FWqT82iSlDD-57" value="arch_elf_pt_proc&lt;br&gt;arch_check_elf" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-288" y="1101" width="138" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-59" value="flush_old_exec" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-428" y="1408" width="111" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-61" value="setup_new_exec(struct linux_binprm * bprm)&lt;br&gt;|--&amp;gt; arch_pick_mmap_layout(current-&amp;gt;mm, &amp;amp;bprm-&amp;gt;rlim_stack);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-436" y="1491" width="349" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-63" value="&lt;a href=&quot;https://blog.csdn.net/21cnbao/article/details/106846641&quot;&gt;进程内存管理初探-CSDN博客&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20.996470588235127" y="1514.999703584559" width="186" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-65" value="&lt;a href=&quot;https://blog.csdn.net/pwl999/article/details/109289451&quot;&gt;Linux mem 1.1 用户态进程空间的创建 --- execve() 详解_flush_old_exec-CSDN博客&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-962.0038976332721" y="252.00367761948513" width="471" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
