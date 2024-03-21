@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T05:00:16.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="72ZPPw6dNvNg_8MWGibt" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T05:08:57.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Jj9SbbCZQG_EcbYETcuc" version="24.0.6" type="github">
   <diagram name="第 1 页" id="e0HLtBswI-MPd6nx6dCa">
     <mxGraphModel dx="2703" dy="2432" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,6 +175,9 @@
         <mxCell id="9iSsdS5C5FWqT82iSlDD-59" value="flush_old_exec" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-431" y="1540" width="111" height="43" as="geometry" />
         </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9iSsdS5C5FWqT82iSlDD-61" target="9iSsdS5C5FWqT82iSlDD-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9iSsdS5C5FWqT82iSlDD-61" value="setup_new_exec(struct linux_binprm * bprm)&lt;br&gt;|--&amp;gt; arch_pick_mmap_layout(current-&amp;gt;mm, &amp;amp;bprm-&amp;gt;rlim_stack);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
           <mxGeometry x="-450" y="1827" width="349" height="65" as="geometry" />
         </mxCell>
@@ -264,6 +267,15 @@
         </mxCell>
         <mxCell id="9iSsdS5C5FWqT82iSlDD-101" value="old_mm = current-&gt;mm;&#xa;exec_mm_release(tsk, old_mm);" style="text;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="248.99562337239598" y="1506.996666666667" width="215" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9iSsdS5C5FWqT82iSlDD-103" target="9iSsdS5C5FWqT82iSlDD-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-103" value="random_factor = arch_mmap_rnd();&#xa;&#xa;if (mmap_is_legacy(rlim_stack)) {&#xa;        mm-&gt;mmap_base = TASK_UNMAPPED_BASE + random_factor;&#xa;        mm-&gt;get_unmapped_area = arch_get_unmapped_area;&#xa;    } else {&#xa;        mm-&gt;mmap_base = mmap_base(random_factor, rlim_stack);&#xa;        mm-&gt;get_unmapped_area = arch_get_unmapped_area_topdown;&#xa;    }" style="text;whiteSpace=wrap;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="61" y="1784" width="490" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-105" value="unsigned long pad = stack_guard_gap;&#xa;PAGE_ALIGN(STACK_TOP - gap - rnd);" style="text;whiteSpace=wrap;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="711" y="1845" width="296" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
