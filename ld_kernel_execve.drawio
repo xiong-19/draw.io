@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T04:42:09.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="r3VlTi_yUteYO1s-4579" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T05:00:16.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="72ZPPw6dNvNg_8MWGibt" version="24.0.6" type="github">
   <diagram name="第 1 页" id="e0HLtBswI-MPd6nx6dCa">
     <mxGraphModel dx="2703" dy="2432" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,14 +166,20 @@
         <mxCell id="9iSsdS5C5FWqT82iSlDD-57" value="arch_elf_pt_proc&lt;br&gt;arch_check_elf" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-288" y="1101" width="138" height="59" as="geometry" />
         </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-96" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="9iSsdS5C5FWqT82iSlDD-59" target="9iSsdS5C5FWqT82iSlDD-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-98" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;curved=0;" edge="1" parent="1" source="9iSsdS5C5FWqT82iSlDD-59" target="9iSsdS5C5FWqT82iSlDD-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9iSsdS5C5FWqT82iSlDD-59" value="flush_old_exec" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-428" y="1408" width="111" height="43" as="geometry" />
+          <mxGeometry x="-431" y="1540" width="111" height="43" as="geometry" />
         </mxCell>
         <mxCell id="9iSsdS5C5FWqT82iSlDD-61" value="setup_new_exec(struct linux_binprm * bprm)&lt;br&gt;|--&amp;gt; arch_pick_mmap_layout(current-&amp;gt;mm, &amp;amp;bprm-&amp;gt;rlim_stack);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-436" y="1491" width="349" height="65" as="geometry" />
+          <mxGeometry x="-450" y="1827" width="349" height="65" as="geometry" />
         </mxCell>
         <mxCell id="9iSsdS5C5FWqT82iSlDD-63" value="&lt;a href=&quot;https://blog.csdn.net/21cnbao/article/details/106846641&quot;&gt;进程内存管理初探-CSDN博客&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20.996470588235127" y="1514.999703584559" width="186" height="36" as="geometry" />
+          <mxGeometry x="-399.9964705882351" y="1939.999703584559" width="186" height="36" as="geometry" />
         </mxCell>
         <mxCell id="9iSsdS5C5FWqT82iSlDD-65" value="&lt;a href=&quot;https://blog.csdn.net/pwl999/article/details/109289451&quot;&gt;Linux mem 1.1 用户态进程空间的创建 --- execve() 详解_flush_old_exec-CSDN博客&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-962.0038976332721" y="252.00367761948513" width="471" height="36" as="geometry" />
@@ -240,6 +246,24 @@
             <mxPoint x="2550" y="1182" as="sourcePoint" />
             <mxPoint x="2576" y="1096" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-95" value="&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;Anonymous Pro&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, Menlo, Monaco, Consolas, Inconsolata, Courier, monospace, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: no-common-ligatures; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: rgb(255, 255, 255); display: inline !important;&quot;&gt;&lt;b&gt;set_mm_exe_file(bprm-&amp;gt;mm, bprm-&amp;gt;file);&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-157.00104329427052" y="1467.9977099609375" width="321" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-100" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;curved=0;" edge="1" parent="1" source="9iSsdS5C5FWqT82iSlDD-97" target="9iSsdS5C5FWqT82iSlDD-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-102" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="9iSsdS5C5FWqT82iSlDD-97" target="9iSsdS5C5FWqT82iSlDD-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-97" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;retval = exec_mmap(bprm-&amp;gt;mm);&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="1583" width="249" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-99" value="tsk-&gt;active_mm = mm;&#xa;tsk-&gt;mm = mm;" style="text;whiteSpace=wrap;align=left;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="259" y="1615" width="149" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9iSsdS5C5FWqT82iSlDD-101" value="old_mm = current-&gt;mm;&#xa;exec_mm_release(tsk, old_mm);" style="text;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="248.99562337239598" y="1506.996666666667" width="215" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
