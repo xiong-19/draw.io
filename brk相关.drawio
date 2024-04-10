@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T14:51:27.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="aWAl4SyorSNAxskfMkHW" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T06:17:37.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="vIlmqRMpY6rZIK-BHtIa" version="24.2.3" type="github">
   <diagram name="第 1 页" id="kmpl3XWWrSYcs6uOB_PQ">
     <mxGraphModel dx="908" dy="986" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,8 +28,8 @@
         <mxCell id="Bm6gwIE-CmzxwmUsLKLB-24" value="" style="line;strokeWidth=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="389" y="404" width="80" height="3" as="geometry" />
         </mxCell>
-        <mxCell id="Bm6gwIE-CmzxwmUsLKLB-25" value="end" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="476" y="392.5" width="38" height="26" as="geometry" />
+        <mxCell id="Bm6gwIE-CmzxwmUsLKLB-25" value="end=start+len" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="475" y="392.5" width="91" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Bm6gwIE-CmzxwmUsLKLB-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="371" y="404" width="6" height="28" as="geometry" />
@@ -60,6 +60,9 @@
         </mxCell>
         <mxCell id="Bm6gwIE-CmzxwmUsLKLB-41" value="&lt;font color=&quot;#ff3333&quot;&gt;红色：VMA的end&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#99ff33&quot;&gt;绿色：VMA的start&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="540" y="698" width="115" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="eyTxc5LpUIPMgVkQZPNX-2" value="do_munmap(start, len)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="332" y="238" width="210" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
