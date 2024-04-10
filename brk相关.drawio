@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T11:53:15.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="DBppYVETy-2qRKq60QqU" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T12:20:52.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="SfLHz-Gn_GB9Qa-u1qYm" version="24.2.3" type="github">
   <diagram name="第 1 页" id="kmpl3XWWrSYcs6uOB_PQ">
     <mxGraphModel dx="908" dy="987" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
           <mxGeometry x="345.5" y="273" width="167" height="29" as="geometry" />
         </mxCell>
         <mxCell id="IoPYvHIgiQvXcJAScCUt-1" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="387" y="1044" width="50" height="130" as="geometry" />
+          <mxGeometry x="351" y="1459" width="50" height="130" as="geometry" />
         </mxCell>
         <mxCell id="IoPYvHIgiQvXcJAScCUt-2" value="vma_adjust(vma,&amp;nbsp; start, end, insert,)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="475" y="479" width="205" height="27" as="geometry" />
@@ -80,28 +80,28 @@
           <mxGeometry x="276" y="588" width="41" height="26" as="geometry" />
         </mxCell>
         <mxCell id="IoPYvHIgiQvXcJAScCUt-11" value="" style="line;strokeWidth=1;html=1;perimeterSpacing=1;" parent="1" vertex="1">
-          <mxGeometry x="387" y="1081" width="50" height="10" as="geometry" />
+          <mxGeometry x="351" y="1496" width="50" height="10" as="geometry" />
         </mxCell>
         <mxCell id="IoPYvHIgiQvXcJAScCUt-12" value="" style="line;strokeWidth=1;html=1;perimeterSpacing=1;" parent="1" vertex="1">
-          <mxGeometry x="387" y="1131" width="50" height="10" as="geometry" />
+          <mxGeometry x="351" y="1546" width="50" height="10" as="geometry" />
         </mxCell>
         <mxCell id="IoPYvHIgiQvXcJAScCUt-13" value="start" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="445" y="1123" width="41" height="26" as="geometry" />
+          <mxGeometry x="409" y="1538" width="41" height="26" as="geometry" />
         </mxCell>
         <mxCell id="IoPYvHIgiQvXcJAScCUt-14" value="end" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="448" y="1073" width="38" height="26" as="geometry" />
+          <mxGeometry x="412" y="1488" width="38" height="26" as="geometry" />
         </mxCell>
         <mxCell id="IoPYvHIgiQvXcJAScCUt-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="512.5" y="824" width="24" height="935" as="geometry" />
+          <mxGeometry x="512.5" y="824" width="24" height="1192" as="geometry" />
         </mxCell>
         <mxCell id="IoPYvHIgiQvXcJAScCUt-16" value="vma-&amp;gt;next &amp;amp;&amp;amp; !insert" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="533" y="831" width="134" height="24" as="geometry" />
         </mxCell>
         <mxCell id="IoPYvHIgiQvXcJAScCUt-17" value="&lt;font color=&quot;#66cc00&quot;&gt;vma:与end，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#66cc00&quot;&gt;start的关系可能有多种&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="228" y="1088.5" width="137" height="41" as="geometry" />
+          <mxGeometry x="192" y="1503.5" width="137" height="41" as="geometry" />
         </mxCell>
         <mxCell id="IoPYvHIgiQvXcJAScCUt-23" value="__vma_adjust(vma, start, end, insert, expand)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="223" y="883" width="260.5" height="35" as="geometry" />
+          <mxGeometry x="187" y="1298" width="260.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="IoPYvHIgiQvXcJAScCUt-24" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="699" y="779" width="50" height="145" as="geometry" />
@@ -247,7 +247,7 @@
         <mxCell id="zeRLUBQvqGE_PZb2gksD-23" value="相当于将调整后空出的这部分，分给next" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="887" y="1536" width="233" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zeRLUBQvqGE_PZb2gksD-26" value="remove_next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-26" value="if remove_next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="538" y="1673" width="115" height="29" as="geometry" />
         </mxCell>
         <mxCell id="zeRLUBQvqGE_PZb2gksD-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;opacity=20;" edge="1" parent="1" source="zeRLUBQvqGE_PZb2gksD-26" target="IoPYvHIgiQvXcJAScCUt-47">
@@ -259,11 +259,32 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zeRLUBQvqGE_PZb2gksD-29" value="if (remove_next != 3)&#xa;            __vma_unlink_prev(mm, next, vma);&#xa;else:&#xa;            __remove_shared_vm_struct(next, file, mapping);&#xa;&#xa;" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="843" y="1657" width="242" height="90" as="geometry" />
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-29" value="if (remove_next != 3)&#xa;            __vma_unlink_prev(mm, next, vma);&#xa;else:&#xa;          __vma_unlink_common(mm, next, NULL, false, vma);&#xa;&#xa;" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="847" y="1673" width="242" height="90" as="geometry" />
         </mxCell>
         <mxCell id="zeRLUBQvqGE_PZb2gksD-32" value="/*&#xa; * vma_merge has merged next into vma, and needs&#xa;* us to remove next before dropping the locks.&#xa;*/" style="text;whiteSpace=wrap;fontColor=#CCCCCC;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="540.5" y="1598" width="331.5" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-33" value="&lt;font color=&quot;#a680b8&quot;&gt;&lt;b&gt;都是将next代表的vma从vma链表中去除&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="856" y="1642" width="235" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-35" value="else if(insert)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="538.5" y="1771" width="111.5" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-36" value="    __insert_vm_struct(mm, insert);" style="text;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="694.4966259765625" y="1805.0033740234376" width="197" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-37" value="&lt;b&gt;&lt;font color=&quot;#67ab9f&quot;&gt;添加到rb树与list中&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="713" y="1776" width="119" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-38" value="remove_next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="540.5" y="1949" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-39" value="vm_area_free(next);" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="696.0033740234375" y="1912.996748046875" width="136" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-40" value="由remove_next的值做一些处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640.5" y="1970" width="183" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
