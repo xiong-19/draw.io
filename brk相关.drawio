@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T12:27:48.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="3rUdz3Dr6jWsyc39vO3Z" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T12:29:49.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="DfTjs6mbJ5tg8DXSnWho" version="24.2.3" type="github">
   <diagram name="第 1 页" id="kmpl3XWWrSYcs6uOB_PQ">
     <mxGraphModel dx="908" dy="987" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -292,8 +292,8 @@
         <mxCell id="zeRLUBQvqGE_PZb2gksD-41" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;当开始地址不是hpage对齐，并且vma包含了一个巨页，检查是否会分割一个巨页&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="524" y="1382" width="449" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zeRLUBQvqGE_PZb2gksD-48" value="split_huge_pmd_address(vma, end, false, NULL);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
-          <mxGeometry x="1028" y="1401.38" width="282" height="38.25" as="geometry" />
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-48" value="split_huge_pmd_address(vma, end, false, NULL);&lt;br&gt;|--&amp;gt;__split_huge_pmd(vma, pmd, address, freeze, page);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1028" y="1401.38" width="319" height="38.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
