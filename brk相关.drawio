@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T12:20:52.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="SfLHz-Gn_GB9Qa-u1qYm" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T12:27:48.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="3rUdz3Dr6jWsyc39vO3Z" version="24.2.3" type="github">
   <diagram name="第 1 页" id="kmpl3XWWrSYcs6uOB_PQ">
     <mxGraphModel dx="908" dy="987" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,8 +223,11 @@
         <mxCell id="zeRLUBQvqGE_PZb2gksD-9" value="adjust_next = -((vma-&gt;vm_end - end) &gt;&gt; PAGE_SHIFT);&#xa;exporter = vma;&#xa;importer = next;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="830" y="1281.0033740234376" width="328" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="zeRLUBQvqGE_PZb2gksD-17" value="vma_adjust_trans_huge(orig_vma, start, end, adjust_next);" style="text;whiteSpace=wrap;fontColor=#7EA6E0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="536.5033740234375" y="1408" width="342" height="36" as="geometry" />
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zeRLUBQvqGE_PZb2gksD-17" target="zeRLUBQvqGE_PZb2gksD-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-17" value="vma_adjust_trans_huge(orig_vma, start, end, adjust_next);" style="text;whiteSpace=wrap;fontColor=#000000;fontStyle=1;fillColor=#e3c800;strokeColor=#B09500;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="536.5" y="1408" width="348.5" height="25" as="geometry" />
         </mxCell>
         <mxCell id="zeRLUBQvqGE_PZb2gksD-18" value="超过了next" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="691" y="940" width="77" height="26" as="geometry" />
@@ -285,6 +288,12 @@
         </mxCell>
         <mxCell id="zeRLUBQvqGE_PZb2gksD-40" value="由remove_next的值做一些处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="640.5" y="1970" width="183" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-41" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;当开始地址不是hpage对齐，并且vma包含了一个巨页，检查是否会分割一个巨页&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="524" y="1382" width="449" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zeRLUBQvqGE_PZb2gksD-48" value="split_huge_pmd_address(vma, end, false, NULL);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="1028" y="1401.38" width="282" height="38.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
